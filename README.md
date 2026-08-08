@@ -48,3 +48,10 @@ All projects in this repository must adhere to the following:
 ---
 
 For questions or support, visit [GitHub Discussions](https://github.com/aws-gomal-university/.github/discussions) or contact [@i-arshii](https://github.com/i-arshii).
+
+---
+
+## License
+
+This repository is licensed under the [MIT License](./LICENSE).
+All project work submitted to this repository is subject to the same license unless explicitly stated otherwise in the project folder.
