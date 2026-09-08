@@ -55,7 +55,7 @@ Step-by-step instructions to set up and deploy this project.
 
 ```bash
 # Clone the repository
-git clone https://github.com/aws-gomal-university/cloud-devops-projects.git
+git clone https://github.com/aws-sbg-gomal/cloud-devops-projects.git
 
 # Navigate to this project
 cd projects/<your-project-folder>
