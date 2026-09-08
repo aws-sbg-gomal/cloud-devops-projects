@@ -23,7 +23,7 @@ Keep the table sorted alphabetically by project name. Do not add your project to
 1. Copy the `_templates/` folder from the root of this repository into `projects/`.
 2. Rename the copied folder to your project name using lowercase letters and hyphens (e.g., `serverless-cost-dashboard`).
 3. Fill in the `README.md` inside your project folder before submitting a pull request.
-4. Follow the full contribution workflow defined in the [organization CONTRIBUTING.md](https://github.com/aws-gomal-university/.github/blob/main/CONTRIBUTING.md).
+4. Follow the full contribution workflow defined in the [organization CONTRIBUTING.md](https://github.com/aws-sbg-gomal/.github/blob/main/CONTRIBUTING.md).
 
 ---
 
@@ -47,7 +47,7 @@ All projects in this repository must adhere to the following:
 
 ---
 
-For questions or support, visit [GitHub Discussions](https://github.com/aws-gomal-university/.github/discussions) or contact [@i-arshii](https://github.com/i-arshii).
+For questions or support, visit [GitHub Discussions](https://github.com/aws-sbg-gomal/.github/discussions) or contact [@i-arshii](https://github.com/i-arshii).
 
 ---
 
