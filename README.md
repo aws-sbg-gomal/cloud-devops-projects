@@ -29,9 +29,9 @@ Keep the table sorted alphabetically by project name. Do not add your project to
 
 ## Project Index
 
-| Project | Description | Author | Status |
-|---|---|---|---|
-| | | | |
+| No. | Project | Description | Author | Status |
+|---|---|---|---|---|
+|01|[serverless-web-serving-s3-cloudfront](https://github.com/aws-sbg-gomal/cloud-devops-projects/tree/main/projects/serverless-web-serving-s3-cloudfront)| A serverless static web page hosting on AWS S3 <br> & Cloudfront using cloud formation template (IaC)| [@Muhammad-Luqman](https://github.com/Muahmmad-Luqman) | Active |
 
 ---
 
