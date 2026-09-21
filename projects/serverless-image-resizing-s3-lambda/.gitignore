@@ -1,0 +1,8 @@
+build/
+layer/
+lambda-image-resizer.zip
+pillow-layer-python312-x86_64.zip
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
