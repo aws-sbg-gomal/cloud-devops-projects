@@ -32,6 +32,7 @@ Keep the table sorted alphabetically by project name. Do not add your project to
 | No. | Project | Description | Author | Status |
 |---|---|---|---|---|
 |01|[serverless-web-serving-s3-cloudfront](https://github.com/aws-sbg-gomal/cloud-devops-projects/tree/main/projects/serverless-web-serving-s3-cloudfront)| A serverless static web page hosting on AWS S3 <br> & Cloudfront using cloud formation template (IaC)| [@Muhammad-Luqman](https://github.com/Muahmmad-Luqman) | Active |
+|02|[serverless-image-resizing-s3-lambda](https://github.com/aws-sbg-gomal/cloud-devops-projects/tree/main/projects/serverless-image-resizing-s3-lambda)| A serverless image resizing workflow using AWS S3, Lambda & IAM| [@Muhammad-Luqman](https://github.com/Muahmmad-Luqman) | Active |
 
 ---
 
