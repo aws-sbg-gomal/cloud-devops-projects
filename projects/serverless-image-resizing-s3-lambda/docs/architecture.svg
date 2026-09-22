@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071426"/><stop offset="1" stop-color="#122b4a"/></linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#ff9900"/></marker>
+    <style>
+      .title{font:700 42px Arial,sans-serif;fill:#fff}.sub{font:20px Arial,sans-serif;fill:#bdd0e5}.box{fill:#fff;stroke:#d8e2ee;stroke-width:2}.head{font:700 23px Arial,sans-serif;fill:#152235}.headLight{font:700 23px Arial,sans-serif;fill:#fff}.body{font:17px Arial,sans-serif;fill:#53657a}.icon{font:700 32px Arial,sans-serif;fill:#fff}.arrow{stroke:#ff9900;stroke-width:5;fill:none;marker-end:url(#arrow)}.label{font:700 16px Arial,sans-serif;fill:#ffb84d}.note{fill:#0d2038;stroke:#31516f;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="800" y="82" text-anchor="middle" class="title">Serverless Image Resizing</text>
+  <text x="800" y="120" text-anchor="middle" class="sub">Amazon S3 • AWS Lambda • Pillow • CloudWatch Logs</text>
+
+  <g transform="translate(70 285)"><rect class="box" width="260" height="210"/><circle cx="130" cy="62" r="38" fill="#3b82f6"/><text x="130" y="74" text-anchor="middle" class="icon">1</text><text x="130" y="128" text-anchor="middle" class="head">Image Upload</text><text x="130" y="164" text-anchor="middle" class="body">JPEG or PNG</text></g>
+  <g transform="translate(425 285)"><rect class="box" width="280" height="210"/><circle cx="140" cy="62" r="38" fill="#3f8624"/><text x="140" y="74" text-anchor="middle" class="icon">S3</text><text x="140" y="128" text-anchor="middle" class="head">Source Bucket</text><text x="140" y="164" text-anchor="middle" class="body">Private originals</text></g>
+  <g transform="translate(820 285)"><rect class="box" width="280" height="210"/><circle cx="140" cy="62" r="38" fill="#ed7100"/><text x="140" y="74" text-anchor="middle" class="icon">λ</text><text x="140" y="128" text-anchor="middle" class="head">Lambda + Pillow</text><text x="140" y="164" text-anchor="middle" class="body">Resize within 800 × 800</text></g>
+  <g transform="translate(1210 285)"><rect class="box" width="300" height="210"/><circle cx="150" cy="62" r="38" fill="#3f8624"/><text x="150" y="74" text-anchor="middle" class="icon">S3</text><text x="150" y="128" text-anchor="middle" class="head">Destination Bucket</text><text x="150" y="164" text-anchor="middle" class="body">Private resized images</text></g>
+
+  <path class="arrow" d="M330 390 H415"/><text x="372" y="370" text-anchor="middle" class="label">Upload</text>
+  <path class="arrow" d="M705 390 H810"/><text x="758" y="348" text-anchor="middle" class="label">ObjectCreated</text><text x="758" y="370" text-anchor="middle" class="label">event</text>
+  <path class="arrow" d="M1100 390 H1200"/><text x="1150" y="370" text-anchor="middle" class="label">PutObject</text>
+
+  <g transform="translate(825 615)"><rect class="note" width="270" height="130" rx="18"/><text x="135" y="48" text-anchor="middle" class="headLight">CloudWatch Logs</text><text x="135" y="82" text-anchor="middle" class="sub" font-size="16">Success and error logs</text></g>
+  <path class="arrow" d="M960 495 V605"/><text x="980" y="560" class="label">Logs</text>
+
+  <text x="800" y="835" text-anchor="middle" class="sub">Two separate buckets prevent recursive Lambda invocation • Region: eu-north-1</text>
+</svg>
